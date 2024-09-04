@@ -1,0 +1,67 @@
+.sideContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90vh;
+    padding: 20px;
+}
+
+.sideUser{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dadfe8;
+    font-size: 20px;
+    
+}
+
+.sideEmail{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+
+.line{
+    width: 100%;
+    color: gray;
+}
+
+.sideItemsContainer{
+    margin-top: 20px;
+}
+
+.sideItems{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:2.0;
+    margin-bottom: 20px;
+    color: #dadfe8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sideItems:hover{
+    background-color: gray;
+    transition: 300px;
+    /* height: 20px; */
+    padding-left: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.logoutButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    &:hover{
+        background-color: bisque;
+    }
+}
+
+
+.side-icon{
+    padding-right: 10px;
+}

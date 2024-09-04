@@ -1,0 +1,94 @@
+.modalContainer{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.inputContainer{
+    height: 500px;
+    width: 500px;
+    background-color:black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 20px;
+    opacity:1.0;
+    
+}
+
+.inputStyle1{
+    width:90%;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    background-color: #5f615f;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputStyle2{
+    width:90%;
+    border: none;
+    border-radius: 8px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    background-color: #5f615f;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.adTaskButtonSubmit{
+    height: 40px;
+    width: 70px;
+    color: White;
+    background-color:rgb(12, 130, 170);
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: 0;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.adTaskButtonClose{
+    background: none;
+    border:1px solid white;
+    border-radius: 60%;
+    height: 25px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self:flex-end;
+    margin-right: 20px;
+}

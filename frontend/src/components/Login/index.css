@@ -1,0 +1,116 @@
+.login-bg-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading4{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.form-container{
+    border: 1px solid #9a9ea1;
+    border-radius: 9px;
+    min-height: 300px;
+    min-width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.star{
+    color: red;
+}
+.input-style{
+    width: 100%;
+    min-height: 40px;
+    border: 1px solid #9a9ea1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-family:  "Gill Sans", sans-serif;;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+}
+.input-style2{
+    width: 100%;
+    border: none;
+    outline: none;
+    min-height: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.eyeIcon{
+    color: white;
+}
+
+.passwordContainer{
+    width: 100%;
+    min-height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #9a9ea1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-family:  "Gill Sans", sans-serif;;
+    font-size: 15px;
+    color: black;
+}
+
+.login-button{
+    width: 100%;
+    color: #ffffff;
+    background-color: #1080e3;
+    border: none;
+    border-radius: 8px;
+    min-height: 40px;
+    margin-bottom: 15px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+.loginPara{
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;
+}
+.link{
+    padding-left: 5px;
+    color: blue;
+}
+
+.labelInput{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+}
+.error-message{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    color: #bd0d04;
+    font-weight: bold;
+}

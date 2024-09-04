@@ -1,0 +1,31 @@
+.loginContainerSignup{
+    min-height: 80vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-style-signup{
+    width: 100px;
+    min-height: 40px;
+    border: 1px solid #9a9ea1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-family:  "Gill Sans", sans-serif;;
+    font-size: 15px;
+    color: black;
+}
+.form-container-signup{
+    border: 1px solid #9a9ea1;
+    border-radius: 9px;
+    min-height: 300px;
+    min-width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
